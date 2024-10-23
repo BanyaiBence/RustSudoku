@@ -3,6 +3,7 @@ use crate::helpers::gen_vec;
 use crate::helpers::shuffle;
 use rand::Rng;
 
+#[derive(Clone, Copy)]
 pub struct Table {
     data: [[u8; 9]; 9],
 }
